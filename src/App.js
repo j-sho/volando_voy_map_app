@@ -72,7 +72,7 @@ const MapContainer = (props) => {
   return (
     <Map
         google={props.google}
-        zoom={6}
+        zoom={5}
         style={mapStyles}
         initialCenter={
           {
