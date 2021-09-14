@@ -135,4 +135,12 @@
   .full-info-link:hover {
     letter-spacing: 8px;
   }
+
+  .full-info-window {
+    top: 0;
+  }
+
+  .full-info-link {
+    left: 25%;
+  }
 }
