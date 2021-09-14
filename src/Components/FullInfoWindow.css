@@ -137,7 +137,7 @@
   }
 
   .full-info-window {
-    top: 0;
+    top: 10vh;
   }
 
   .full-info-link {
