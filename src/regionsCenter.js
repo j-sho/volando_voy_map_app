@@ -13,8 +13,8 @@ export const regions = [
     },
     {name: "Aragón",
     placeCenter: {
-        lat: 43.539907549030964,
-        lng: -0.7530184646415887
+        lat: 41.65551773274559,
+        lng: -0.8881169411222437
         }
     },
     {name: "Asturias",

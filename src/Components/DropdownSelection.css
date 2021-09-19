@@ -1,5 +1,22 @@
 .dropdown-holder {
   position: absolute;
-  top: 1.4%;
-  left: 25%;
+  top: 10px;
+  left: 240px;
+}
+
+.ui.selection.dropdown {
+  min-height: 2.9em;
+}
+
+.ui.dropdown .menu .selected.item,
+.ui.dropdown.selected {
+  background: rgba(228, 104, 93, 0.03);
+}
+
+.ui.dropdown .menu > .item:hover {
+  background: rgba(228, 104, 93, 0.05);
+}
+
+.ui.selection.dropdown .menu > .item {
+  border-top: 1px solid rgba(228, 104, 93, 0.03);
 }

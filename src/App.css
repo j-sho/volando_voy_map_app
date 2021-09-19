@@ -2,3 +2,7 @@ body {
   font-family: "Petrona", serif;
   margin: 0;
 }
+
+button:focus {
+  outline: 0;
+}
