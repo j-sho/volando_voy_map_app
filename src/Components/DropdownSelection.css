@@ -1,5 +1,5 @@
 .dropdown-holder {
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 240px;
 }

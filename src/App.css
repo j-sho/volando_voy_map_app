@@ -10,7 +10,7 @@ button:focus {
 .about-header a {
   font-family: "Dancing Script", cursive;
   color: #e4685d;
-  position: absolute;
+  position: fixed;
   top: 74px;
   left: 35px;
 }
