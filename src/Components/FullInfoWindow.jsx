@@ -53,7 +53,7 @@ export default function FullInfoWindow(props) {
 
   return (
   <div className="full-info-window" ref={props.innerRef}>
-      <button type="button" id="closeFullInfoWindow" onClick={props.onCloseFullWindow}></button>
+      <button type="button" className="closeFullInfoWindow" onClick={props.onCloseFullWindow}></button>
       <div className="full-info-image">
           <a className="full-info-link" href={props.data.videoLink} target="_blank" rel="noreferrer">Ver video</a>
           <img alt="imagen del capitulo" className="full-info-photo" src={props.data.imgLink} />

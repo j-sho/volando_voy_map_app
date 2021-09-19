@@ -27,7 +27,7 @@
   letter-spacing: 0.8px;
 }
 
-#closeFullInfoWindow {
+.closeFullInfoWindow {
   font-size: 1em;
   background-color: transparent;
   border: none;

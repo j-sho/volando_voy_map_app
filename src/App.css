@@ -6,3 +6,20 @@ body {
 button:focus {
   outline: 0;
 }
+
+.about-header a {
+  font-family: "Dancing Script", cursive;
+  color: #e4685d;
+  position: absolute;
+  top: 74px;
+  left: 35px;
+}
+
+.about-header a:hover,
+.about-header a:active {
+  color: #808080;
+}
+
+.about-header a.clicked {
+  color: #808080;
+}

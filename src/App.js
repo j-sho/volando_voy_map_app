@@ -5,6 +5,7 @@ import { seriesData } from './seriesData';
 import InfoWindowEx from './Components/InfoWindowEx';
 import FullInfoWindow from './Components/FullInfoWindow';
 import Dropdown from './Components/DropdownSelection';
+import AboutHolder from './Components/AboutHolder';
 import './App.css';
 
 const mapStyles = {
@@ -27,6 +28,7 @@ const MapContainer = (props) => {
     lng: -6.9450125131839995
     });
   const [zoom, setZoom] = useState(5.3);
+  const [isClicked, setClicked] = useState(false);
 
   const ref = useRef();
 
@@ -79,6 +81,12 @@ const MapContainer = (props) => {
     };
   }
 
+  const onCloseAbout = () => {
+    if (isClicked) {
+      setClicked(false);
+    };
+  }
+
   const onChosedRegion = (region, center) => {
     setRegion(region);
     if (region === 'Todos') {
@@ -106,6 +114,12 @@ const MapContainer = (props) => {
         <Dropdown
         searchRegion={onChosedRegion}
         ></Dropdown>
+        <h1 className="about-header"><a className={isClicked ? 'clicked' : ''} onClick={() => setClicked(!isClicked)}>Acerca de</a></h1>
+        { isClicked ? 
+        <AboutHolder
+        onCloseAbout={onCloseAbout}
+        /> 
+        : null}
         {filteredData.map((marker, index) => (
         <Marker
           key={index}

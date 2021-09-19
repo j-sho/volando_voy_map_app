@@ -20,3 +20,14 @@
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid rgba(228, 104, 93, 0.03);
 }
+
+@media (max-width: 600px) {
+  .dropdown-holder {
+    top: 120px;
+    left: 9px;
+  }
+
+  .ui.selection.dropdown {
+    min-width: 13.9em;
+  }
+}

@@ -1,0 +1,20 @@
+.about-holder {
+  width: 30vw;
+  height: 40vh;
+  position: fixed;
+  top: 45vh;
+  left: 18vw;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0px 0px 11px 0px #000;
+  border-radius: 12px;
+  overflow-y: auto;
+  padding-bottom: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.about-holder .closeFullInfoWindow {
+  width: 15px;
+  height: 15px;
+}
