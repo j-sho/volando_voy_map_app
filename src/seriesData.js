@@ -1,9 +1,9 @@
 export const seriesData = [
     {name: "Desfiladero de los Gaitanes",
-    placeRegion: "Málaga",
+    placeRegion: "Andalucía",
     placeCenter: {
-        lat: 36.932420281204,
-        lng: -4.789392329916101
+        lat: 37.410899252089955,
+        lng: -4.485893814465914
     },
     placeName: "Caminito del Rey",
     pueblo: "Valle de Abdalajís",
@@ -14,7 +14,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/542c23b888f21c6f1de4a6281fa23fd2_3e90.jpg?w=480"
     },
     {name: "Las Minas de Riotinto",
-    placeRegion: "Huelva",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 37.69404046220705,
         lng: -6.596453215384585
@@ -28,7 +28,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/dacd9b1eb16abf5bb7384c112ef930f5_2a40.jpg?w=480"
     },
     {name: "Los Órganos de Rapadura",
-    placeRegion: "Tenerife",
+    placeRegion: "Canarias",
     placeCenter: {
         lat: 28.45743691189683,
         lng: -16.488376955092537
@@ -42,7 +42,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/8c58c073709a3843833440099515251f_c501.jpg?w=480"
     },
     {name: "Los Mallos de Riglos, en Huesca",
-    placeRegion: "Huesca",
+    placeRegion: "Aragón",
     placeCenter: {
         lat: 42.35186384934629, 
         lng: -0.7243387031718974
@@ -70,10 +70,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/11/24/VolandoVoy_42_9ac9.jpg?w=480"
     },
     {name: "Las Médulas",
-    placeRegion: "León",
+    placeRegion: "Castilla y León",
     placeCenter: {
-        lat: 42.4876146707111,
-        lng: -6.760305273115026
+        lat: 42.45967210330132,
+        lng: -6.759707764164398
     },
     placeName: "Las Médulas",
     pueblo: "Yeres",
@@ -84,10 +84,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/9dc2f94ec32b63e1e2277eb378135e33_f4fd.jpg?w=480"
     },
     {name: "Cabo Ortegal",
-    placeRegion: "Coruña",
+    placeRegion: "Galicia",
     placeCenter: {
-        lat: 43.76915221449079, 
-        lng: -7.868645184283831
+        lat: 43.76880138036641, 
+        lng: -7.868771275528046
     },
     placeName: "Cabo Ortegal",
     pueblo: "Cariño",
@@ -98,7 +98,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/3db98be80a6b3c430646060a66981635_6590.jpg?w=480"
     },
     {name: "Bahía de Fornells",
-    placeRegion: "Menorca",
+    placeRegion: "Islas Baleares",
     placeCenter: {
         lat: 40.03919560874369, 
         lng: 4.126698887568735
@@ -112,7 +112,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/g4bx6eprpbfe_volandovoy_t2_cap8_dam2_b179.jpg?w=480"
     },
     {name: "Doñana",
-    placeRegion: "Almonte",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 37.042686061834026, 
         lng: -6.434285770395681
@@ -126,7 +126,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/t9cglpff2vlp_volandovoy_t2_cap9_c579.jpg?w=480"
     },
     {name: "Delta del Ebro",
-    placeRegion: "Tarragona",
+    placeRegion: "Cataluña",
     placeCenter: {
         lat: 40.707363739559284, 
         lng: 0.8571621854236677
@@ -156,8 +156,8 @@ export const seriesData = [
     {name: "Ribeira Sacra",
     placeRegion: "Galicia",
     placeCenter: {
-        lat: 42.483341321354175,
-        lng: -7.730552452577156
+        lat: 42.39267291814437,
+        lng: -7.561306431102626
     },
     placeName: "Ribeira Sacra",
     pueblo: "Santo Estevo de Rivas de Sil",
@@ -168,12 +168,12 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/q3ruo1hubp0v_volandovoy_12_3879.jpg?w=480"
     },
     {name: "Disierto de Tabernas",
-    placeRegion: "Almería",
+    placeRegion: "Andalucía",
     placeCenter: {
-        lat: 37.007871145061124, 
-        lng: -2.419627779958154
+        lat: 37.07761138380713, 
+        lng: -2.519513427522151
     },
-    placeName: "Disierto de Tabernas",
+    placeName: "Desierto de Tabernas",
     pueblo: "Tabernas",
     shortDescription: "El desierto de Tabernas, en Almería, es único en Europa. Escenario natural de multitud de películas del Oeste, recibe al año más de 3.000 horas de luz solar y su clima desértico es fuente constante de investigación para científicos procedentes de todo el mundo. Acostumbrados a su calor extremo, los habitantes de la zona se han convertido en expertos a la hora de aprovechar los recursos naturales que tienen a su alcance, pero aún queda mucho por hacer.",
     temporada: 2,
@@ -184,8 +184,8 @@ export const seriesData = [
     {name: "El gran pozo de Cantabria",
     placeRegion: "Cantabria",
     placeCenter: {
-        lat: 43.25298710576086, 
-        lng: -3.4608015855234235
+        lat: 43.25285719462232, 
+        lng: -3.460953129994635
     },
     placeName: "El gran pozo MTDE",
     pueblo: "Arredondo",
@@ -196,7 +196,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/v7xufeetg79g_programas_t3_p14_thumbnail_0500.jpg?w=480"
     },
     {name: "Con Mercedes Milá en la Sierra de Grazalema",
-    placeRegion: "Cádiz",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 36.756409267385976, 
         lng: -5.375283193796948
@@ -224,7 +224,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/rwck3rik0wcy_programas_t3_p16_thumbnail_34f6.jpg?w=480"
     },
     {name: "Románico Palentino",
-    placeRegion: "Palencia",
+    placeRegion: "Castilla y León",
     placeCenter: {
         lat: 42.78101401802026,
         lng: -4.343903343211114
@@ -252,7 +252,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/yo5w7puklwt2_programas_t3_p18_thumbnail_565a.jpg?w=480"
     },
     {name: "Hay que salvar Albarracín",
-    placeRegion: "Teruel",
+    placeRegion: "Aragón",
     placeCenter: {
         lat: 40.40795212459518, 
         lng: -1.4439671245355
@@ -266,10 +266,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/a2xnc8duuyw6_programas_t3_p19_thumbnail_f9d5.jpg?w=480"
     },
     {name: "Villardeciervos y millar de lobos",
-    placeRegion: "Zamora",
+    placeRegion: "Castilla y León",
     placeCenter: {
-        lat: 41.94439072882446,
-        lng: -6.28481821874799
+        lat: 41.94392888055814,
+        lng: -6.284918798457029
     },
     placeName: "Villardeciervos",
     pueblo: "Villardeciervos",
@@ -280,7 +280,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/2dkv50q07c6y_culebra_2bc3.jpg?w=480"
     },
     {name: "La ría de Arousa",
-    placeRegion: "Pontevedra",
+    placeRegion: "Galicia",
     placeCenter: {
         lat: 42.56127620260411, 
         lng: -8.90204141678749
@@ -296,8 +296,8 @@ export const seriesData = [
     {name: "Las Hurdes",
     placeRegion: "Extremadura",
     placeCenter: {
-        lat: 40.50681425932072, 
-        lng: -6.275682541632983
+        lat: 40.37880462774993, 
+        lng: -6.2998018461276475
     },
     placeName: "Las Hurdes",
     pueblo: "Pinofranqueado",
@@ -308,10 +308,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/rhqel38c7vkb_volandovoy_23_fbaa.jpg?w=480"
     },
     {name: "Penelles (Lleida)",
-    placeRegion: "Lleida",
+    placeRegion: "Cataluña",
     placeCenter: {
-        lat: 41.77054200401317, 
-        lng: 0.9668822847414016
+        lat: 41.75822985611356, 
+        lng: 0.9654070415539533
     },
     placeName: "Penelles",
     pueblo: "Penelles",
@@ -327,7 +327,7 @@ export const seriesData = [
         lat: 27.751671183888522, 
         lng: -18.025976057075468
     },
-    placeName: "El Hierro",
+    placeName: "Los zifios",
     pueblo: "Tigaday",
     shortDescription: "Jesús Calleja viaja hasta El Hierro para investigar a los zifios,  un desconocido cetáceo que vive en aguas próximas de la isla, un entorno privilegiado por su biodiversidad y sus condiciones climáticas (07/10/2018).",
     temporada: 4,
@@ -338,8 +338,8 @@ export const seriesData = [
     {name: "Galicia",
     placeRegion: "Galicia",
     placeCenter: {
-        lat: 42.176964521926024,
-        lng: -8.755811426604959
+        lat: 42.59217634647808,
+        lng: -7.767354127138639
     },
     placeName: "Galicia",
     pueblo: "Pontevedras",
@@ -350,7 +350,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/ec2uz77d85c7_volandovoy_25ok_d424.jpg?w=480"
     },
     {name: "Sierra de Aracena",
-    placeRegion: "Huelva",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 37.89199639093011, 
         lng: -6.5610275999526735
@@ -366,8 +366,8 @@ export const seriesData = [
     {name: "Parque de redes",
     placeRegion: "Asturias",
     placeCenter: {
-        lat: 43.255878253743425,  
-        lng: -5.364280857223424
+        lat: 43.181834237019956,  
+        lng: -5.342305184899126
     },
     placeName: "Parque de redes",
     pueblo: "Aracena",
@@ -380,8 +380,8 @@ export const seriesData = [
     {name: "Soria",
     placeRegion: "Castilla y León",
     placeCenter: {
-        lat: 41.78405057491145, 
-        lng: -2.477325798961636
+        lat: 41.76652399302425, 
+        lng: -2.4793218192508055
     },
     placeName: "Fortaleza califal de Gormaz",
     pueblo: "El Burgo de Osma",
@@ -394,8 +394,8 @@ export const seriesData = [
     {name: "León",
     placeRegion: "Castilla y León",
     placeCenter: {
-        lat: 42.99367209920228, 
-        lng: -6.350627075441205
+        lat: 42.985990406261614, 
+        lng: -6.3463047516718945
     },
     placeName: "Reserva de la Biosfera Valle de Laciana",
     pueblo: "Villablino",
@@ -406,12 +406,12 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/s1ykpaxp62ys_volandovoy_29_9c6e.jpg?w=480"
     },
     {name: "Comarcas del norte de Granada",
-    placeRegion: "Granada",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 37.35788047591134,  
         lng: -3.1357321119840282
     },
-    placeName: "Parque Megalitico Gorafe",
+    placeName: "Casa cueva granada",
     pueblo: ["Benalua", "Gorafe", "Guadix"],
     shortDescription: "En este programa, Jesús Calleja visita las comarcas del norte de Granada, lleno de Cárcavas, cañones y desfiladeros increíbles. Para que este paisaje no caiga en el olvido, Calleja va a montar la misión más multitudinaria de la historia del programa (20/10/2019).",
     temporada: 5,
@@ -420,10 +420,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/b8vzdgvkjrex_volandovoy_30_afae.jpg?w=480"
     },
     {name: "La Serra do Courel, Lugo",
-    placeRegion: "Lugo",
+    placeRegion: "Galicia",
     placeCenter: {
-        lat: 42.59625013942143,
-        lng: -7.181153618371063
+        lat: 42.595567191808286,
+        lng: -7.180940160022264
     },
     placeName: "La Serra do Courel",
     pueblo: "Folgoso do Courel",
@@ -434,7 +434,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/ghanfw55q380_volandovoy_31_242b.jpg?w=480"
     },
     {name: "Bajo las aguas del Cap de Creus",
-    placeRegion: "Girona",
+    placeRegion: "Cataluña",
     placeCenter: {
         lat: 42.319761456752694,
         lng: 3.321876021710515
@@ -448,10 +448,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/jz2zuv8lr9to_volandovoy_32_e315.jpg?w=480"
     },
     {name: "Los olivos de las Sierras Subbéticas",
-    placeRegion: "Córdoba",
+    placeRegion: "Andalucía",
     placeCenter: {
-        lat: 37.55523824454051, 
-        lng: -4.330470339283189
+        lat: 37.458417368115605, 
+        lng: -4.333050623568572
     },
     placeName: "Las Sierras Subbéticas",
     pueblo: "Zuheros",
@@ -462,7 +462,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2019/11/18/h79r9z3ak5v7_volandovoy_33_e3d9.jpg?w=480"
     },
     {name: "Ordesa y Monte Perdido",
-    placeRegion: "Huesca",
+    placeRegion: "Aragón",
     placeCenter: {
         lat: 42.64822782688293,  
         lng: 0.03558674406694966
@@ -478,8 +478,8 @@ export const seriesData = [
     {name: "El Camino Lebaniego",
     placeRegion: "Cantabria",
     placeCenter: {
-        lat: 43.215349254879975, 
-        lng: -4.589796618052956 
+        lat: 43.150318191521905, 
+        lng: -4.654237211577817
     },
     placeName: "el Monasterio de Santo Toribio de Liébana",
     pueblo: "Potes",
@@ -492,8 +492,8 @@ export const seriesData = [
     {name: "Valles Pasiegos",
     placeRegion: "Cantabria",
     placeCenter: {
-        lat: 43.20294132158589,
-        lng: -3.9150032595025968
+        lat: 43.196147206254835,
+        lng: -3.9175634843885936
     },
     placeName: "Valles Pasiegos",
     pueblo: "Alceda",
@@ -504,7 +504,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/10/08/Volandovoy_36_2305.jpg?w=480"
     },
     {name: "Arribes del Duero (Zamora)",
-    placeRegion: "Zamora",
+    placeRegion: "Castilla y León",
     placeCenter: {
         lat: 40.91736069140289, 
         lng: -6.799114472112823
@@ -518,10 +518,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/10/13/Volandovoy_37_7198.jpg?w=480"
     },
     {name: "La Alpujarra (Granada)",
-    placeRegion: "Granada",
+    placeRegion: "Andalucía",
     placeCenter: {
-        lat: 36.92585681142106, 
-        lng: -3.3210886373737
+        lat: 36.92954293133533, 
+        lng: -3.3219468479786047
     },
     placeName: "Parque Nacional de Sierra Nevada",
     pueblo: "La Alpujarra",
@@ -537,7 +537,7 @@ export const seriesData = [
         lat: 42.25102763819439, 
         lng: -7.025882474275371 
     },
-    placeName: "A Viega Ourense",
+    placeName: "Orense (Galicia)",
     pueblo: "A Viega Ourense",
     shortDescription: "Pasamos por una de las zonas más bonitas que se pueden ver desde el aire en la Península para llegar a A Veiga, un municipio de Orense y una de las zonas más envejecidas de España y de Europa. Ellos luchan contra la despoblación y nosotros queremos ayudarles.",
     temporada: 6,
@@ -546,7 +546,7 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/10/27/VolandoVoy_39_e863.jpg?w=480"
     },
     {name: "Segura de la Sierra (Jaén)",
-    placeRegion: "Jaén",
+    placeRegion: "Andalucía",
     placeCenter: {
         lat: 38.30024121532029, 
         lng: -2.651605661186246  
@@ -560,12 +560,12 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/11/11/volandovoy_40_c329.jpg?w=480"
     },
     {name: "Pueblanueva (Toledo)",
-    placeRegion: "Toledo",
+    placeRegion: "Castilla-La Mancha",
     placeCenter: {
-        lat: 39.927525001281275, 
-        lng: -4.681659965902857   
+        lat: 39.91144661240321, 
+        lng: -4.680115010623512  
     },
-    placeName: "Cervera de los Montes",
+    placeName: "Oropesa (Toledo)",
     pueblo: "Oropesa",
     shortDescription: "Atraídos por una historia de repoblación insólita, el equipo de Volando Voy se desplaza por primera vez a Castilla La Mancha, más concretamente a la provincia de Toledo, tierra de castillos, de tradiciones y de artesanos y hogar del río Tajo, el más largo de la Península Ibérica.",
     temporada: 6,
@@ -574,10 +574,10 @@ export const seriesData = [
     imgLink: "https://album.mediaset.es/cimg/807010/2020/11/17/VolandoVoy_41_ac0d.jpg?w=480"
     },
     {name: "León",
-    placeRegion: "León",
+    placeRegion: "Castilla y León",
     placeCenter: {
-        lat: 43.05276398421456, 
-        lng: -5.175656195901389  
+        lat: 43.04955930613282, 
+        lng: -5.177901211630502  
     },
     placeName: "Maraña",
     pueblo: "Maraña",

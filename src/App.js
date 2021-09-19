@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import googleMapStyles from './GoogleMapStyles';
 import { seriesData } from './seriesData';
 import InfoWindowEx from './Components/InfoWindowEx';
 import FullInfoWindow from './Components/FullInfoWindow';
+import Dropdown from './Components/DropdownSelection';
 import './App.css';
 
 const mapStyles = {
@@ -10,12 +12,21 @@ const mapStyles = {
   height: '100%'
 };
 
+// const mapIdStyle = "3d1e60297734aef6";
+
 const MapContainer = (props) => {
   const [showingInfoWindow, setShowingInfoWindow] = useState(false); // Hides or shows the InfoWindow
   const [activeMarker, setActiveMarker] = useState({}); // Shows the active marker upon click
   const [selectedPlace, setSelectedPlace] = useState({}); // Shows the InfoWindow to the selected place upon a marker
   const [activeData, setActiveData] = useState({}); //Saves all date to the selected place upon a marker
   const [showFullInfoWindow, setShowFullInfoWindow] = useState(false); //Hides or shows Full date
+  const [region, setRegion] = useState("");  //Chosed region for filter
+  const [filteredData, setFilteredData] = useState(seriesData); //Saves all filtered data
+  const [center, setCenter] = useState({
+    lat: 37.26389554350538, 
+    lng: -6.9450125131839995
+    });
+  const [zoom, setZoom] = useState(5.3);
 
   const ref = useRef();
 
@@ -68,20 +79,34 @@ const MapContainer = (props) => {
     };
   }
 
+  const onChosedRegion = (region, center) => {
+    setRegion(region);
+    if (region === 'Todos') {
+      setFilteredData(seriesData);
+      setCenter(center);
+      setZoom(5.3);
+    } else {
+      const items = seriesData.filter(item => item.placeRegion === region);
+      setFilteredData(items);
+      setCenter(center);
+      setZoom(7.1);
+    }
+  }
+
 
   return (
     <Map
+        // mapId = {mapIdStyle}
         google={props.google}
-        zoom={5}
+        zoom={zoom}
         style={mapStyles}
-        initialCenter={
-          {
-            lat: 40.416775, 
-            lng: -3.703790
-          }
-        }
+        initialCenter={center}
+        center={center}
       >
-        {seriesData.map((marker, index) => (
+        <Dropdown
+        searchRegion={onChosedRegion}
+        ></Dropdown>
+        {filteredData.map((marker, index) => (
         <Marker
           key={index}
           id={index}
@@ -113,6 +138,8 @@ const MapContainer = (props) => {
       </Map>
   )
 }
+
+GoogleApiWrapper.defaultProps = googleMapStyles;
 
 export default GoogleApiWrapper({
   apiKey: "AIzaSyAHkqN4H0q6zSWvVQOW1lHgHUYTrzWBndc"
