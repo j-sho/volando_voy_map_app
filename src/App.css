@@ -23,3 +23,10 @@ button:focus {
 .about-header a.clicked {
   color: #808080;
 }
+
+@media (max-width: 600px) {
+  .about-header a {
+    top: 90vh;
+    left: 9px;
+  }
+}

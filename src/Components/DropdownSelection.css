@@ -23,8 +23,8 @@
 
 @media (max-width: 600px) {
   .dropdown-holder {
-    top: 120px;
-    left: 9px;
+    top: 90vh;
+    left: 30vw;
   }
 
   .ui.selection.dropdown {

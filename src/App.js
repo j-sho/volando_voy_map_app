@@ -21,9 +21,8 @@ const MapContainer = (props) => {
   const [selectedPlace, setSelectedPlace] = useState({}); // Shows the InfoWindow to the selected place upon a marker
   const [activeData, setActiveData] = useState({}); //Saves all date to the selected place upon a marker
   const [showFullInfoWindow, setShowFullInfoWindow] = useState(false); //Hides or shows Full date
-  const [region, setRegion] = useState("");  //Chosed region for filter
   const [filteredData, setFilteredData] = useState(seriesData); //Saves all filtered data
-  const [center, setCenter] = useState({
+  const [centerRegion, setCenterRegion] = useState({
     lat: 37.26389554350538, 
     lng: -6.9450125131839995
     });
@@ -88,15 +87,14 @@ const MapContainer = (props) => {
   }
 
   const onChosedRegion = (region, center) => {
-    setRegion(region);
     if (region === 'Todos') {
       setFilteredData(seriesData);
-      setCenter(center);
+      setCenterRegion(center);
       setZoom(5.3);
     } else {
       const items = seriesData.filter(item => item.placeRegion === region);
       setFilteredData(items);
-      setCenter(center);
+      setCenterRegion(center);
       setZoom(7.1);
     }
   }
@@ -108,18 +106,20 @@ const MapContainer = (props) => {
         google={props.google}
         zoom={zoom}
         style={mapStyles}
-        initialCenter={center}
-        center={center}
+        initialCenter={centerRegion}
+        center={centerRegion}
       >
-        <Dropdown
-        searchRegion={onChosedRegion}
-        ></Dropdown>
-        <h1 className="about-header"><a className={isClicked ? 'clicked' : ''} onClick={() => setClicked(!isClicked)}>Acerca de</a></h1>
-        { isClicked ? 
-        <AboutHolder
-        onCloseAbout={onCloseAbout}
-        /> 
-        : null}
+      <React.Fragment>
+            <Dropdown
+            searchRegion={onChosedRegion}
+            ></Dropdown>
+            <h1 className="about-header"><a className={isClicked ? 'clicked' : ''} onClick={() => setClicked(!isClicked)}>Acerca de</a></h1>
+            { isClicked ? 
+            <AboutHolder
+            onCloseAbout={onCloseAbout}
+            /> 
+            : null}
+        </React.Fragment>
         {filteredData.map((marker, index) => (
         <Marker
           key={index}

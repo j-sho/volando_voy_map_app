@@ -1,6 +1,6 @@
 import 'semantic-ui-css/semantic.min.css';
 import './DropdownSelection.css';
-import React, {useState} from 'react'
+import React from 'react'
 import { Dropdown } from 'semantic-ui-react'
 import { regions } from '../regionsCenter';
 

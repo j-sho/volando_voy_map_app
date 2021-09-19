@@ -1,5 +1,5 @@
 .about-holder {
-  width: 30vw;
+  width: 13.9em;
   height: 40vh;
   position: fixed;
   top: 45vh;
@@ -17,4 +17,11 @@
 .about-holder .closeFullInfoWindow {
   width: 15px;
   height: 15px;
+}
+
+@media (max-width: 600px) {
+  .about-holder {
+    top: 68vh;
+    left: 31vw;
+  }
 }
