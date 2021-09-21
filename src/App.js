@@ -48,11 +48,12 @@ const MapContainer = (props) => {
   }, [showFullInfoWindow])
 
   const onMarkerClick = (props, marker, e) => {
+    console.log(marker.id);
     setSelectedPlace(props);
     setActiveMarker(marker);
     setShowingInfoWindow(true);
     setShowFullInfoWindow(false);
-    setActiveData(seriesData[marker.id]);
+    setActiveData(filteredData[marker.id]);
     var infoWindow = document.getElementById("openFullInfoWindow");
     if (infoWindow) {
       document.getElementById("openFullInfoWindow").onclick=onInfoWindow;
