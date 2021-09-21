@@ -90,12 +90,12 @@ const MapContainer = (props) => {
     if (region === 'Todos') {
       setFilteredData(seriesData);
       setCenterRegion(center);
-      setZoom(5.3);
+      setZoom(4.4);
     } else {
       const items = seriesData.filter(item => item.placeRegion === region);
       setFilteredData(items);
       setCenterRegion(center);
-      setZoom(7.1);
+      setZoom(6.7);
     }
   }
 
