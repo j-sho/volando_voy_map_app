@@ -7,12 +7,28 @@ button:focus {
   outline: 0;
 }
 
+.menu-holder {
+  position: fixed;
+  top: 80vh;
+  left: 9px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+
+h1.about-header {
+  margin-top: 0;
+  margin-top: 20px;
+}
+
 .about-header a {
   font-family: "Dancing Script", cursive;
   color: #e4685d;
-  position: fixed;
+  /* position: fixed;
   top: 74px;
-  left: 35px;
+  left: 35px; */
 }
 
 .about-header a:hover,
@@ -25,8 +41,8 @@ button:focus {
 }
 
 @media (max-width: 600px) {
-  .about-header a {
+  /* .about-header a {
     top: 80vh;
     left: 9px;
-  }
+  } */
 }

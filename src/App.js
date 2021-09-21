@@ -110,15 +110,17 @@ const MapContainer = (props) => {
         center={centerRegion}
       >
       <React.Fragment>
+        <div className="menu-holder">
+            <h1 className="about-header"><a className={isClicked ? 'clicked' : ''} onClick={() => setClicked(!isClicked)}>Acerca de</a></h1>
             <Dropdown
             searchRegion={onChosedRegion}
             ></Dropdown>
-            <h1 className="about-header"><a className={isClicked ? 'clicked' : ''} onClick={() => setClicked(!isClicked)}>Acerca de</a></h1>
             { isClicked ? 
             <AboutHolder
             onCloseAbout={onCloseAbout}
             /> 
             : null}
+            </div>
         </React.Fragment>
         {filteredData.map((marker, index) => (
         <Marker

@@ -1,7 +1,8 @@
 .dropdown-holder {
-  position: fixed;
+  /* position: fixed;
   top: 10px;
-  left: 240px;
+  left: 240px; */
+  margin-top: 20px;
 }
 
 .ui.selection.dropdown {
@@ -22,10 +23,10 @@
 }
 
 @media (max-width: 600px) {
-  .dropdown-holder {
+  /* .dropdown-holder {
     top: 80vh;
     left: 30vw;
-  }
+  } */
 
   .ui.selection.dropdown {
     min-width: 13.9em;

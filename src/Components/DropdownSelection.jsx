@@ -26,7 +26,7 @@ return(
   className="dropdown-holder" 
   placeholder='Region' 
   onChange={handleChange}
-  search selection 
+  selection 
   options={regionOptions} />
 )
 }
