@@ -95,7 +95,7 @@ const MapContainer = (props) => {
       const items = seriesData.filter(item => item.placeRegion === region);
       setFilteredData(items);
       setCenterRegion(center);
-      setZoom(6.7);
+      setZoom(6.5);
     }
   }
 
