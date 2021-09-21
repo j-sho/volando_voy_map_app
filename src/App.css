@@ -9,7 +9,7 @@ button:focus {
 
 .menu-holder {
   position: fixed;
-  top: 80vh;
+  top: 70vh;
   left: 9px;
   width: 70%;
   display: flex;
