@@ -26,7 +26,7 @@ const MapContainer = (props) => {
     lat: 37.26389554350538, 
     lng: -6.9450125131839995
     });
-  const [zoom, setZoom] = useState(5.3);
+  const [zoom, setZoom] = useState(4.4);
   const [isClicked, setClicked] = useState(false);
 
   const ref = useRef();

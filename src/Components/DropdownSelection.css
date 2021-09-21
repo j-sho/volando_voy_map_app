@@ -2,7 +2,7 @@
   /* position: fixed;
   top: 10px;
   left: 240px; */
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .ui.selection.dropdown {
@@ -20,6 +20,14 @@
 
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid rgba(228, 104, 93, 0.03);
+}
+
+.ui.dropdown .menu > .item {
+  font-size: 1.3em;
+}
+
+.ui.selection.dropdown {
+  font-size: 1.3em;
 }
 
 @media (max-width: 600px) {
