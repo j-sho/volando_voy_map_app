@@ -18,7 +18,7 @@ const DropdownSelection = props => {
 const handleChange = (event, data) => {
   // setRegion(data.value);
   // console.log(regions[data.value].name);
-  props.searchRegion(regions[data.value].name, regions[data.value].placeCenter);
+  props.searchRegion(regions[data.value].name, regions[data.value].placeCenter, regions[data.value].zoom);
 
 };
 return(

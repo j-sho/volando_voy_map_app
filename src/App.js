@@ -48,7 +48,6 @@ const MapContainer = (props) => {
   }, [showFullInfoWindow])
 
   const onMarkerClick = (props, marker, e) => {
-    console.log(marker.id);
     setSelectedPlace(props);
     setActiveMarker(marker);
     setShowingInfoWindow(true);
@@ -87,16 +86,16 @@ const MapContainer = (props) => {
     };
   }
 
-  const onChosedRegion = (region, center) => {
+  const onChosedRegion = (region, center, zoom) => {
     if (region === 'Todos') {
       setFilteredData(seriesData);
       setCenterRegion(center);
-      setZoom(4.4);
+      setZoom(zoom);
     } else {
       const items = seriesData.filter(item => item.placeRegion === region);
       setFilteredData(items);
       setCenterRegion(center);
-      setZoom(6);
+      setZoom(zoom);
     }
   }
 
@@ -109,6 +108,8 @@ const MapContainer = (props) => {
         style={mapStyles}
         initialCenter={centerRegion}
         center={centerRegion}
+        mapTypeControl= {false}
+        fullscreenControl= {false}
       >
       <React.Fragment>
         <div className="menu-holder">
