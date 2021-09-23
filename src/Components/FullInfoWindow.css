@@ -79,10 +79,10 @@
   transition: all 1s ease;
 }
 
-.wiki-text {
+/* .wiki-text {
   letter-spacing: 2px;
   font-size: 1em;
-}
+} */
 
 .full-info-link:hover ~ .full-info-photo {
   filter: grayscale(100%);
