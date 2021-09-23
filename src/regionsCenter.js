@@ -1,8 +1,8 @@
 export const regions = [
     {name: 'Todos',
     placeCenter: {
-        lat: 37.26389554350538, 
-        lng: -6.9450125131839995
+        lat: 40.444934015258006, 
+        lng: -3.700176471145849
         },
     zoom: 4.4
 
@@ -23,10 +23,10 @@ export const regions = [
     },
     {name: "Asturias",
     placeCenter: {
-        lat: 44.30351036315551,
-        lng: -5.458800877526476
+        lat: 42.97167680091505,
+        lng: -6.060306304191947
         },
-    zoom: 7
+    zoom: 8
     },
     {name: "Canarias",
     placeCenter: {
@@ -37,24 +37,24 @@ export const regions = [
     },
     {name: "Cantabria",
     placeCenter: {
-        lat: 44.37031596995171,
-        lng: -3.872224830090276
+        lat: 42.99949699450885,
+        lng: -4.138586652770664
         },
-    zoom: 7
+    zoom: 8
     },
     {name: "Castilla-La Mancha",
     placeCenter: {
-        lat: 38.9810274090557,
-        lng: -3.7867300645797726
+        lat: 39.91144661240321, 
+        lng: -4.680115010623512 
         },
-    zoom: 7
+    zoom: 8
     },
     {name: "Castilla y León",
     placeCenter: {
-        lat: 42.371071011293616,
-        lng: -5.030221333132142
+        lat: 41.71398689549062,
+        lng: -4.707004122651542
         },
-    zoom: 7
+    zoom: 6.4
     },
     {name: "Cataluña",
     placeCenter: {
@@ -65,37 +65,37 @@ export const regions = [
     },
     {name: "Extremadura",
     placeCenter: {
-        lat: 38.71591586466302,
-        lng: -6.248226660428259
+        lat: 40.37880462774993, 
+        lng: -6.2998018461276475
         },
-    zoom: 7
+    zoom: 8
     },
     {name: "Galicia",
     placeCenter: {
-        lat: 42.46263370795805,
-        lng: -7.910176393239325
+        lat: 42.59217634647808,
+        lng: -7.767354127138639
         },
-    zoom: 7
+    zoom: 7.3
     },
     {name: "Islas Baleares",
     placeCenter: {
-        lat: 39.57358583572912,
-        lng: 2.6410953401260575
+        lat: 39.694935294498926,
+        lng: 2.9310270901924254
         },
     zoom: 7
     },
     {name: "Murcia",
     placeCenter: {
-        lat: 38.00359338791135,
-        lng: -1.1303516904251465
+        lat: 37.771118393407065, 
+        lng: -0.7854499111259899
         },
-    zoom: 7
+    zoom: 8
     },
     {name: "País Vasco",
     placeCenter: {
-        lat: 42.93512789127984,
-        lng: -2.6778014917555053
+        lat: 43.29711362522159,
+        lng: -2.312924958412532
         },
-    zoom: 7
+    zoom: 8
     }
 ];

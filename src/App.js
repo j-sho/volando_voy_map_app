@@ -23,8 +23,8 @@ const MapContainer = (props) => {
   const [showFullInfoWindow, setShowFullInfoWindow] = useState(false); //Hides or shows Full date
   const [filteredData, setFilteredData] = useState(seriesData); //Saves all filtered data
   const [centerRegion, setCenterRegion] = useState({
-    lat: 37.26389554350538, 
-    lng: -6.9450125131839995
+    lat: 40.444934015258006, 
+    lng: -3.700176471145849
     });
   const [zoom, setZoom] = useState(4.4);
   const [isClicked, setClicked] = useState(false);
