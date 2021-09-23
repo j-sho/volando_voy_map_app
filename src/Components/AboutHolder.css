@@ -1,9 +1,14 @@
 .about-holder {
-  width: 16.9em;
+  /* width: 16.9em;
   height: 40vh;
   position: fixed;
   top: 60vh;
-  left: 18vw;
+  left: 18vw; */
+  width: 70vw;
+  height: 80vh;
+  position: fixed;
+  top: 60vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   background-color: white;
   box-shadow: 0px 0px 11px 0px #000;
@@ -12,11 +17,14 @@
   padding: 15px;
   max-width: 400px;
   text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.3em;
 }
 
 .about-holder .closeFullInfoWindow {
   width: 15px;
   height: 15px;
+  background: url("../img/close-button-black.svg") no-repeat;
 }
 
 @media (max-width: 600px) {

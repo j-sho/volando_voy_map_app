@@ -27,7 +27,7 @@ export default function FullInfoWindow(props) {
                       <h3 className="header">
                           { data.query.search[0].title }
                       </h3>
-                      <span dangerouslySetInnerHTML={{ __html: data.query.search[0].snippet }}></span>
+                      <span className="wiki-text" dangerouslySetInnerHTML={{ __html: data.query.search[0].snippet }}></span>
                   </div><br></br>
                   <div className="right floated content">
                     <a className="link" target="_blank" rel="noreferrer" href={`https://es.wikipedia.org?curid=${data.query.search[0].pageid}`}>Leer mas en Wikipedia</a>
