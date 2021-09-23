@@ -5,9 +5,9 @@
   top: 60vh;
   left: 18vw; */
   width: 70vw;
-  height: 80vh;
+  height: 70vh;
   position: fixed;
-  top: 60vh;
+  top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -29,7 +29,7 @@
 
 @media (max-width: 600px) {
   .about-holder {
-    top: 60vh;
-    left: 40vw;
+    top: 50vh;
+    left: 50vw;
   }
 }
