@@ -67,7 +67,7 @@ export const seriesData = [
     temporada: 1,
     series: 5,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-1/programa-5-40_1006372075374/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2020/11/24/VolandoVoy_42_9ac9.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/a90f38299eeb7a8c6ab3677946d2653c_9127.jpg?w=480"
     },
     {name: "Las Médulas",
     placeRegion: "Castilla y León",
