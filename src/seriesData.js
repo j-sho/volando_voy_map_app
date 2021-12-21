@@ -67,7 +67,8 @@ export const seriesData = [
     temporada: 1,
     series: 5,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-1/programa-5-40_1006372075374/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/a90f38299eeb7a8c6ab3677946d2653c_9127.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/a90f38299eeb7a8c6ab3677946d2653c_9127.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/viva-leon-y-la-cueta-circular-por-pola-de-siero-jesus-calleja-82281442"
     },
     {name: "Las Médulas",
     placeRegion: "Castilla y León",
@@ -193,7 +194,8 @@ export const seriesData = [
     temporada: 3,
     series: 14,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-3/programa-14-40_1006973575004/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/v7xufeetg79g_programas_t3_p14_thumbnail_0500.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/v7xufeetg79g_programas_t3_p14_thumbnail_0500.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-carrera-por-montana/helguera-la-gandara-17852258"
     },
     {name: "Con Mercedes Milá en la Sierra de Grazalema",
     placeRegion: "Andalucía",
@@ -235,7 +237,8 @@ export const seriesData = [
     temporada: 3,
     series: 17,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-3/programa-17-40_1007002075002/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/iwl2y34gboqd_programas_t3_p17_319c.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/iwl2y34gboqd_programas_t3_p17_319c.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/pedaleando-el-romanico-con-jesus-calleja-larga-18359213"
     },
     {name: "Los Flysch del País Vasco",
     placeRegion: "País Vasco",
@@ -375,7 +378,8 @@ export const seriesData = [
     temporada: 4,
     series: 27,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-4/programa-27-40_1007569075007/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/gty6emlei1dz_volandovoy_27_634c.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/gty6emlei1dz_volandovoy_27_634c.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-carrera-por-montana/campo-de-caso-santianes-25812325"
     },
     {name: "Soria",
     placeRegion: "Castilla y León",
@@ -403,7 +407,8 @@ export const seriesData = [
     temporada: 5,
     series: 29,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-5/programa-29-40_1008094075017/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/s1ykpaxp62ys_volandovoy_29_9c6e.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/s1ykpaxp62ys_volandovoy_29_9c6e.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/bike-minera-laciana-35359389"
     },
     {name: "Comarcas del norte de Granada",
     placeRegion: "Andalucía",
@@ -445,7 +450,8 @@ export const seriesData = [
     temporada: 5,
     series: 32,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-5/programa-32-40_1008127075017/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/jz2zuv8lr9to_volandovoy_32_e315.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/11/06/jz2zuv8lr9to_volandovoy_32_e315.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/cadaques-rosas-37327307"
     },
     {name: "Los olivos de las Sierras Subbéticas",
     placeRegion: "Andalucía",
@@ -473,7 +479,8 @@ export const seriesData = [
     temporada: 5,
     series: 34,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-5/programa-34-40_1008169075022/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/12/02/150nsmfkbt1p_volandovoy_34_4eb3.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/12/02/150nsmfkbt1p_volandovoy_34_4eb3.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/torla-37568855"
     },
     {name: "El Camino Lebaniego",
     placeRegion: "Cantabria",
@@ -487,7 +494,8 @@ export const seriesData = [
     temporada: 5,
     series: 35,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-5/programa-35-40_1008188575046/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2019/12/16/f7lu4amvu930_volandovoy_35_9815.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2019/12/16/f7lu4amvu930_volandovoy_35_9815.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/viva-leon-bici-electrica-potes-2-pico-jano-por-doberganes-la-viorna-maredes-bosque-de-lon-48641268"
     },
     {name: "Valles Pasiegos",
     placeRegion: "Cantabria",
@@ -585,6 +593,7 @@ export const seriesData = [
     temporada: 6,
     series: 42,
     videoLink: "https://www.mitele.es/programas-tv/volando-voy/temporada-6/programa-40_1008709075019/player/",
-    imgLink: "https://album.mediaset.es/cimg/807010/2020/11/24/VolandoVoy_42_9ac9.jpg?w=480"
+    imgLink: "https://album.mediaset.es/cimg/807010/2020/11/24/VolandoVoy_42_9ac9.jpg?w=480",
+    rutaCalleja: "https://es.wikiloc.com/rutas-mountain-bike/viva-leon-y-marana-vuelta-mampodres-media-jesus-calleja-49875837"
     },
 ]
